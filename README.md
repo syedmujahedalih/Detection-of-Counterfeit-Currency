@@ -4,11 +4,11 @@ The given data set contains observations based on measurements made on a number 
 the measurements, we build a predictor (Machine Learning Classifier) to determine whether a bill is genuine or counterfeit.
 The columns in the database are:
 
-1. variance of Wavelet Transformed image (continuous) 
-2. skewness of Wavelet Transformed image (continuous) 
-3. curtosis of Wavelet Transformed image (continuous) 
-4. entropy of image (continuous) 
-5. class (integer)
+1. Variance of Wavelet Transformed image (continuous) 
+2. Skewness of Wavelet Transformed image (continuous) 
+3. Kurtosis of Wavelet Transformed image (continuous) 
+4. Entropy of image (continuous) 
+5. Class label (integer)
 
 The first four columns in the database are the features used to train the classifiers and the last column is just the class label. This project is split into two parts as follows:
 
